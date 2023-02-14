@@ -1,4 +1,4 @@
-package com.test_crud_spring.demo.models;
+package com.testcrudspring.demo.models;
 
 import java.io.Serializable;
 import jakarta.persistence.*;
@@ -28,5 +28,7 @@ public class Siswa implements Serializable {
     private String lastname;
     @Column(nullable = true, name = "email")
     private String email;
+    @NotNull(message = "Password Required")
+    private String password;
 
 }

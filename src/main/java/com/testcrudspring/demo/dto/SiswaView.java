@@ -1,4 +1,4 @@
-package com.test_crud_spring.demo.dto;
+package com.testcrudspring.demo.dto;
 
 public interface SiswaView {
     Long getId();
@@ -8,4 +8,5 @@ public interface SiswaView {
     String getLastname();
 
     String getEmail();
+
 }

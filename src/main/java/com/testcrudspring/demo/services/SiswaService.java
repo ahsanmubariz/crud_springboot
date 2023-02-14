@@ -1,10 +1,11 @@
-package com.test_crud_spring.demo.services;
+package com.testcrudspring.demo.services;
 
 import java.util.List;
 import java.util.Optional;
-import com.test_crud_spring.demo.models.Siswa;
 
-public interface ISiswa {
+import com.testcrudspring.demo.models.Siswa;
+
+public interface SiswaService {
     List<Siswa> getAllSiswa();
 
     Optional<Siswa> findById(int id);
